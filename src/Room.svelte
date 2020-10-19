@@ -1,14 +1,15 @@
 <script>
 	import { onMount } from 'svelte';
+	import { roomName } from './stores';
 
 	let container, api;
 
 	onMount(() => {
 		const options = {
-			roomName: `universitas-indonesia/ossd`,
+			roomName: $roomName,
 			parentNode: container,
 		};
-		api = new window.JitsiMeetExternalAPI('meet.jit.si', options);
+		api = new window.JitsiMeetExternalAPI('jitsi-nerds.cs.ui.ac.id', options);
 
 		return () => api.dispose();
 	});
