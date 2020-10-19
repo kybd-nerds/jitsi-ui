@@ -10,8 +10,8 @@
 <div class="wrapper">
 	<header>
 		<nav>
-			<img src="logo.png" alt="logo universitas indonesia" />
-			<h2>Jitsi Nerds</h2>
+			<img src="jassets/logo.png" alt="logo universitas indonesia" />
+			<h2>Keyboard Nerds</h2>
 		</nav>
 		<section>
 			<div>
@@ -22,46 +22,15 @@
 				</div>
 				<div><input type="text" bind:value={name} /> <button on:click={join}>Join</button></div>
 			</div>
-			<div><img src="preview.png" alt="classroom preview" /></div>
+			<div><img src="jassets/preview.png" alt="classroom preview" /></div>
 		</section>
 		<div>
-			<small>Part of the Open Source Initiative of The Faculty of Computer Science</small>
-			<small>University of Indonesia</small>
+			<small>Open Source Software Development</small>
+			<small>Faculty of Computer Science, University of Indonesia</small>
 		</div>
 	</header>
 </div>
 
-<!-- <div class="wrapper">
-	<main>
-		<div />
-		<div class="description">
-			<h2>Classroom without the class</h2>
-			<p>
-				Pandemic has changed the way every single one of us interact with each other. From the way
-				we watch movies, order food, do health consultations, and play together, everything has been
-				done without phyisical contact.
-			</p>
-			<p>
-				We believe in the importance of education in the midst of pandemic, an open yet powerful
-				platform, an honest yet beautiful solution for remote-learning, available for everyone,
-				everywhere.
-			</p>
-		</div>
-
-		<div />
-		<div class="description">
-			<h2>40 minutes? Zoom past that</h2>
-			<p>
-				We believe in the open and strategic importance of class discussion, hence we make every
-				session of video conference unlimited in terms of participants and time. This means you can
-				talk, discuss, or even present longer without limits. Goodbye to your 40 minutes trial, say
-				hello to unlimited free sessions.
-			</p>
-			<p>This is made possible by Jitsi Meet, an open source teleconference solution.</p>
-			<a href="meet.jit.si">Learn more about Jitsi here</a>
-		</div>
-	</main>
-</div> -->
 <style>
 	.wrapper {
 		background-color: rgb(249, 251, 254);
