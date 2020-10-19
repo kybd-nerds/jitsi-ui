@@ -5,7 +5,7 @@
     "Room.svelte"
   ],
   "sourcesContent": [
-    "<script>\n\timport { onMount } from 'svelte';\n\n\tlet container, api;\n\n\tonMount(() => {\n\t\tconst options = {\n\t\t\troomName: `universitas-indonesia/ossd`,\n\t\t\tparentNode: container,\n\t\t};\n\t\tapi = new window.JitsiMeetExternalAPI('meet.jit.si', options);\n\n\t\treturn () => api.dispose();\n\t});\n</script>\n\n<div bind:this={container} />\n\n<style>\n\tdiv > :global(iframe) {\n\t\tposition: absolute;\n\t\ttop: 0;\n\t\tleft: 0;\n\t}\n</style>\n"
+    "<script>\n\timport { onMount } from 'svelte';\n\n\tlet container, api;\n\n\tonMount(() => {\n\t\tconst options = {\n\t\t\troomName: `CobaCoba`,\n\t\t\tparentNode: container,\n\t\t};\n\t\tapi = new window.JitsiMeetExternalAPI('jitsi-nerds.cs.ui.ac.id', options);\n\n\t\treturn () => api.dispose();\n\t});\n</script>\n\n<div bind:this={container} />\n\n<style>\n\tdiv > :global(iframe) {\n\t\tposition: absolute;\n\t\ttop: 0;\n\t\tleft: 0;\n\t}\n</style>\n"
   ],
   "names": [],
   "mappings": "AAmBC,kBAAG,CAAW,MAAM,AAAE,CAAC,AACtB,QAAQ,CAAE,QAAQ,CAClB,GAAG,CAAE,CAAC,CACN,IAAI,CAAE,CAAC,AACR,CAAC"
